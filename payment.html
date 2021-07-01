@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://js.braintreegateway.com/web/dropin/1.30.1/js/dropin.min.js"></script>
+</head>
+<body>
+    <!-- step one send to server request -->
+    <div id="drop-container">
+
+    </div>
+    <script type="text/javascript">
+    //call braintree server script code creating here 
+ 
+    braintree.dropin.create({
+   container: document.getElementById('drop-container'),
+  // ...plus remaining configuration
+}, (error, dropinInstance) => {
+  
+});
+    </script>
+    
+</body>
+</html>
