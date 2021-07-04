@@ -17,6 +17,7 @@ db.once('open', function() {
 
 app.set('views', path.join(__dirname,'./resource/views'));
 app.set('layout','layouts/layout');
+app.set('domain','domains/domain');
 
 app.use(expressLayoutes)
 app.set('view engine', 'ejs');
